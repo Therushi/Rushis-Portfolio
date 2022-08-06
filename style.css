@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto+Slab:wght@800&family=Roboto:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+.head {
+  background-color: #95c4fa;
+  height: 650px;
+  box-shadow: 5px 5px 30px #120e43;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  margin: 30px;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.nav-items {
+  list-style: none;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.project{
+  text-decoration: none;
+}
+.nav-items:hover {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #2827cc;
+  border-radius: 10px;
+}
+.logo {
+  font-size: 35px;
+  margin: 30px;
+  color: #120e43;
+  font-weight: 700;
+}
+.logo > span {
+  color: #2827cc;
+  font-size: 20px;
+  font-weight: 200;
+}
+.connect {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #2827cc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px #120e43;
+}
+.connect:hover {
+  filter: brightness(80%);
+}
+.words {
+  position: absolute;
+  color: #fff;
+  opacity: 20%;
+}
+.angular {
+  top: 90px;
+  left: 30%;
+  font-family: "Roboto Slab", serif;
+  font-size: 100px;
+}
+.node {
+  top: 1%;
+  left: 25%;
+  font-family: "Roboto Slab", serif;
+  font-size: 80px;
+}
+.rushi {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: "Roboto Slab", serif;
+  font-size: 100px;
+  right: 0px;
+  top: 20%;
+}
+.js {
+  top: 70%;
+  left: 52%;
+  font-family: "Roboto Slab", serif;
+  font-size: 100px;
+}
+.mongo {
+  top: 15%;
+  left: 2%;
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+}
+.react {
+  top: 55%;
+  left: 38%;
+  font-family: "Roboto Slab", serif;
+  font-size: 90px;
+}
+.html {
+  top: 33%;
+  left: 40%;
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+}
+.cssWord {
+  top: 40%;
+  left: 50%;
+  font-family: "Roboto Slab", serif;
+  font-size: 70px;
+}
+/* ********* Hero Section **********  */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+.hi {
+  font-size: 25px;
+  margin-bottom: 15px;
+  /* margin-left: 220px; */
+  font-weight: 600;
+}
+.name {
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  color: #120e43;
+  line-height: 100%;
+}
+.name > span {
+  font-size: 80px;
+  font-family: "Roboto Slab", serif;
+  color: #db0b5f;
+  text-shadow: 2px 2px 5px #4f052c;
+}
+.info-box {
+  padding: 20px;
+  border: none;
+  background-color: #74c0fb;
+  /* border-radius: 50px; */
+  color: #2827cc;
+  width: 350px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 20px #120e43;
+}
+.info {
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 1px 1px 2px #2827cc;
+}
+.info > span {
+  color: #120e43;
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 1px 1px 2px #2827cc;
+}
+.img-back {
+  position: absolute;
+  top: 150px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #f6dcf5;
+  z-index: 0;
+  box-shadow: 1px 3px 10px #5f082b;
+}
+.hero-right > img {
+  position: relative;
+  z-index: 1;
+}
+
+/* ******Main *********  */
+.main {
+  background-color: #120e43;
+  margin-top: 100px;
+  height: 180px;
+}
+.quote {
+  color: #fff;
+  font-size: 50px;
+  padding: 20px;
+}
+/* ************** mid ************  */
+.mid {
+  margin-top: 50px;
+}
+/* Blog Section  */
+.blog-heading > h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.blog-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.blog-card {
+  /* padding: 0px 30px; */
+  width: 400px;
+  box-shadow: 5px 5px 20px #909090;
+}
+.blog-card:hover{
+  box-shadow: 5px 5px 40px #909090;
+}
+.blog-content {
+  background-color: #e1dcdc;
+  padding: 30px;
+  text-align: center;
+}
+.blog-content > h6 {
+  font-size: 18px;
+  color: #3944f7;
+  margin-bottom: 10px;
+}
+.blog-content > a {
+  font-weight: 900;
+  font-size: 30px;
+  /* margin-bottom: 50px; */
+  text-decoration: none;
+}
+.blog-content > p {
+  margin-top: 10px;
+}
+.blog-author {
+  margin-top: 10px;
+  color: #af1452;
+}
+.git-img {
+  width: 400px;
+  height: 300px;
+}
+.git {
+  background: url("./assets/git.jpg") no-repeat;
+  background-size: 150%;
+  background-position-x: -80px;
+  background-position-y: -90px;
+}
+.css {
+  background: url("./assets/css.jpg") no-repeat;
+  background-size: 150%;
+  background-position-x: -80px;
+  background-position-y: -90px;
+}
+.markdown {
+  background: url("./assets/markdown.jpg") no-repeat;
+  background-size: 150%;
+  background-position-x: -104px;
+  background-position-y: -28px;
+}
+/* // project  */
+.projects{
+  margin-top: 70px;
+}
+
+.project-cards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.my-work{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work{
+  font-size: 40px;
+  margin-left: 10px;
+  font-weight: 600;
+  
+}
+.card-head-img{
+  padding: 5px;
+}
+.more-work >a{
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.card-bottom{
+  background-color: rgb(84, 63, 240);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.liveBtn{
+  background-color: #fff;
+  padding: 5px 25px;
+}
+.gitBtn{
+  background-color: #fff;
+  padding: 5px 25px;
+}
